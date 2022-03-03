@@ -1,4 +1,2 @@
-
-A git repo of Web Technology including assignments and lab reports. Maybe I'll upload my Web Technology project too.
-# Instructor - Dileep Kumar T.
-YOu can find his repos here ---> https://github.com/paudeldileep
+A git repository of 2nd semester subject Web Technology (3 credit) including assignments and lab reports.
+# Instructor -----> https://github.com/paudeldileep
