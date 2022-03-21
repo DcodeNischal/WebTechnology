@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(241, 3, 55);
+}
+
+
+.card{
+    border: 1px solid red;
+    background-color: white;
+    padding:50px 60px;
+    width: 500px;
+    height: auto;
+    margin:auto auto;
+    box-shadow: 15px 5px 50px rgb(110, 4, 4), -15px -5px 50px rgb(110, 4, 4);
+}
+
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading span{
+    text-decoration: underline rgb(241, 3, 55) 5px;
+}
+
+
+.form{
+    width: 100%;
+}
+.form .ok,.button{
+    margin:30px 0;
+    border: none;
+    border-bottom: 2px solid rgb(241, 3, 55);
+    font-size: large;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    background-image: linear-gradient(to left,rgba(231, 18, 18, 0.973),rgb(163, 13, 13));
+    color: white;
+    font-size: large;
+}
+
+
+.extension{
+    text-align: center;
+    color: grey;
+}
+
+
+.facebook{
+    text-decoration: none; 
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(to left,rgb(4, 29, 255),rgb(31, 43, 160));
+}
+
+.twitter img ,.facebook img{
+    margin-right: 10px;
+}
+
+.twitter{
+    text-decoration: none; 
+    color: white;
+    padding: 15px;
+    background-image: linear-gradient(to left,rgb(6, 214, 241),rgb(9, 243, 243));
+}
+
+.godzero{
+    color: aliceblue;
+    text-decoration: none;
+}
