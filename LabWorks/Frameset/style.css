@@ -1,3 +1,7 @@
+
+::-webkit-scrollbar{
+    background-color: transparent;
+    color: transparent;
 }
 body{
     background-color: aquamarine;
@@ -20,7 +24,7 @@ body{
 .logo span::before{
     color:white;
     content: "Nischal";
-    animation: logo infinite 4s;
+    animation: logo infinite 3s;
 }
 
 @keyframes logo {
@@ -136,6 +140,97 @@ hr{
     font-weight: lighter;
     color: white;
 }
+
+/* Github Iframe */
+
+    .test{
+        font-size: larger;
+        font-family: monospace;
+        background-image: none;
+        background-color: aliceblue;
+    }
+
+    .camera{
+        margin-top: -20px;
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .camera img{
+        width: 20px;
+    }
+
+    .test-content{
+        text-align: center;
+    }
+
+    .test-content a{
+        text-decoration: none;
+        color: black ;
+        text-decoration: underline solid black 2px;
+        font-size: 20px;
+    }
+
+    .test-content a:hover{
+        background-color:black;
+        padding: 10px;
+        color: white;
+        transition: .7s;
+        text-decoration: none;
+    }
+
+    .Nickname{
+        margin-top:60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(2);
+        background-image: linear-gradient(to left,red,violet);
+        margin-bottom: 100px;
+    }
+
+    .Nickname span:nth-child(1){
+        color: red;
+    }
+    .Nickname span:nth-child(2){
+        color: orange;
+    }
+    .Nickname span:nth-child(3){
+        color: yellow;
+    }
+    .Nickname span:nth-child(4){
+        color: green;
+    }
+    .Nickname span:nth-child(5){
+        color: blue;
+    }
+    .Nickname span:nth-child(6){
+        color: indigo;
+    }
+    .Nickname span:nth-child(7){
+        color: violet;
+    }
+    .test-para{
+        margin-bottom: 100px;
+        text-align: center;
+        font-size: small;
+        border-top: 2px solid black ;
+        padding-top:5px;
+    }
+
+    .Nickname span:hover{
+        color: white;
+        transition: .7s;
+        
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+    }
+    .navigation img{
+        width: 310px;
+    }
 
 /* Contact Me */
 
