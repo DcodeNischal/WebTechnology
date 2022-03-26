@@ -20,9 +20,20 @@ body{
     border-radius: 100px;
 }
 
-.logo a{
-    color:black;
-    text-decoration: none;
+.logo span::before{
+    color:white;
+    content: "Nischal";
+    animation: logo infinite 4s;
+}
+
+@keyframes logo {
+    0%{
+        content: "Nischal";
+    }
+
+    50%{
+        content: "Dhakal";
+    }
 }
 
 .links{
