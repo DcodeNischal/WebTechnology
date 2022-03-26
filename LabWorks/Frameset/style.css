@@ -12,12 +12,13 @@ body{
 
 /* Menu */
 
+/* LOGO animation */
 .logo{
-    font-size: 40px;
-    margin-left: 40%;
-    border: 1px solid white;
-    max-width: fit-content;
+    font-size: 60px;
+    margin-left:3%;
+    border-left: 1px solid white;
     border-radius: 100px;
+    padding: 0px 20px;
 }
 
 .logo span::before{
@@ -35,6 +36,7 @@ body{
         content: "Dhakal";
     }
 }
+/* Logo animation end */
 
 .links{
    list-style: none;
