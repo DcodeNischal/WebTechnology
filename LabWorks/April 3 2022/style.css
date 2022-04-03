@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+.heading{
+    text-decoration: underline;
+    text-align: center;
+}
+
+table{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+input{
+    background-color: black;
+    color: white;
+}

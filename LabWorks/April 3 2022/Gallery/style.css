@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline solid 5px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 250px;
+    float: left;
+    border: 2px solid;
+    padding: 10px;
+    margin: 50px;
+    box-shadow: 5px 5px 5px black,-5px -5px 5px white;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: .7s;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+span{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+}

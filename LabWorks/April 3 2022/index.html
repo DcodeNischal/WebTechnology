@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="heading">Form with CSS</h1>
+    <table cellspacing="0" cellpadding="10">
+        <form action="">
+            <tr>
+                <th>Name : </th>
+                <td><input type="text" name="name" id="name" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <th>Parent's Name : </th>
+                <td><input type="text" name="parent's name" id="pname" placeholder="Parent's Name"></td>
+            </tr>
+
+            <tr>
+                <th>Mobile : </th>
+                <td><input type="number" name="phone" id="phone"></td>
+            </tr>
+
+            <tr>
+                <th>Date of birth : </th>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+
+            <tr>
+                <th>Gender : </th>
+                <td><label><input type="radio" name="gender" id="male">Male</label><label><input type="radio" name="gender" id="female">Female</label></td>
+            </tr>
+
+            <tr>
+                <th>Photo : </th>
+                <td><input type="file" name="photo" id="photo" multiple></td>
+            </tr>
+
+            <tr>
+                <th>Program : </th>
+                <td><select name="program" id="program">
+                    <option value="">--select--</option>
+                    <option value="">-software</option>
+                    <option value="">--IT--</option>
+                    <option value="">--computer--</option>
+                    
+                </select></td>
+            </tr>
+
+            <tr>
+                <th colspan="2"><u>Address Details</u></th>
+
+            </tr>
+
+            <tr>
+                <th>Province : </th>
+                <td><select name="province" id="province">
+                    <option value="">--select--</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    
+                </select></td>
+            </tr>
+
+            <tr>
+                <th>District : </th>
+                <td><select name="district" id="district">
+                    <option value="">--select--</option>
+                    <option value="">Lalitpur</option>
+                    <option value="">BHaktapur</option>
+                    <option value="">Kathmandu</option>
+                    <option value="">Butwal</option>
+                    <option value="">Tanahun</option>
+                    <option value="">Gorkha</option>
+                    
+                </select></td>
+            </tr>
+
+            <tr>
+                <th>Description : </th>
+                <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <th colspan="2"><label><input type="checkbox" name="agree" id="agree" required>I agree all the terms above</label></th>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+
+        </form>
+    </table>
+</body>
+</html>
