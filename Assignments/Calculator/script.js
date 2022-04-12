@@ -8,7 +8,7 @@ var t1=0;
 var t2=0;
 var subtotal = 0;
 var tax_total=0;
-var total;
+var total=0;
  
 t1=a*b;
 document.getElementById("total1").innerHTML = t1;
