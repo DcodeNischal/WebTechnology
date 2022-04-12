@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIni Mart</title>
+</head>
+<body>
+    <table border="1" cellpadding="10" cellspacing="0" align="center" ">
+        <tr>
+            <th colspan="3">Purchase bill</th>
+            <th colspan="2"><label>Date: <input type="date" name="" id=""></label></th>    
+        </tr>
+        <tr>
+            <th colspan="2"><table>
+                <tr>
+                    <th>Vendor : </th>
+                    <th><textarea name="vendor" cols="50" rows="5"></textarea></th>
+                </tr>
+            </table></th>
+            <th colspan="3"><table>
+                <tr>
+                    <th>Ship to :</th>
+                    <th><textarea name="vendor" cols="50" rows="5"></textarea></th>
+                </tr>
+            </table></th>
+        </tr>
+        <tr>
+            <th>Quantity</th>
+            <th>Item Code</th>
+            <th>Remarks</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <th><input type="number" name="quantity1" id="quantity1"></th>
+            <th><select name="Itemcode" >
+                <option value="-1">---Item Code---</option>
+                <option value="1">A1</option>
+                <option value="1">A2</option>
+                <option value="1">A3</option>
+                <option value="1">A4</option>
+                <option value="1">A5</option>
+                <option value="1">A6</option>
+                <option value="1">A7</option>
+            </select></th>
+            <TH><input type="text" name="remarks1" ></TH>
+            <th><input type="number" name="price1" id="price1" ></th>
+            <th colspan="2"><span id="total1"></span></th>
+        </tr>
+        <tr>
+            <th><input type="number" name="quantity2" id="quantity2" ></th>
+            <th><select name="Itemcode" >
+                <option value="-1">---Item Code---</option>
+                <option value="1">A1</option>
+                <option value="1">A2</option>
+                <option value="1">A3</option>
+                <option value="1">A4</option>
+                <option value="1">A5</option>
+                <option value="1">A6</option>
+                <option value="1">A7</option>
+            </select></th>
+            <TH><input type="text" name="remarks2" ></TH>
+            <th><input type="number" name="price2" id="price2"></th>
+            <th colspan="2"><span id="total2"></span></th>
+        </tr>
+        <tr>
+            <th colspan="3">Subtotal</th>
+            <th colspan="2"><span id="subtotal"></span></th>
+            
+        </tr>
+        <tr>
+            <th colspan="2">Tax</th>
+            <th><input type="number" name="rate" id="tax" ></th>
+            <th colspan="2"><span id="tax-calculate"></span></th>
+        </tr>
+        <tr>
+            <td colspan="3" align="right"><button onclick="calculate()">Grand Total</button></td>
+            <td colspan="2" align="center"><span id="grandtotal"></span></td>
+        </tr>
+    </table>
+</body>
+</html>
