@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(152, 226, 168, 0.9);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(27, 221, 69, 0.8) ;
+    margin: -10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    border-bottom: 5px solid rgb(255, 255, 255,0.9);
+}
+
+.logo{
+    color:white;
+    
+}
+
+.logo span{
+    font-size: 30px;
+    font-weight: bolder;
+    font-weight: 300;
+}
+
+.menu{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu li{
+    margin-right: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+.menu li:hover{
+    background-color: white;
+    padding: 5px;
+    color: rgba(27, 221, 69, 0.9);
+    transition: .4s;
+}
+
+.menu li:nth-child(5){
+    background-color: white;
+    padding: 5px;
+    color: rgba(27, 221, 69, 0.9);
+    font-weight: bolder;
+}
+
+.home .picture{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.home .picture img{
+   border-radius: 500px;
+   border-bottom: 1px solid rgba(204, 240, 212, 0.9);
+   border-right: 1px solid rgba(204, 240, 212, 0.9);
+   box-shadow: 25px 25px 10px 10px rgba(255, 255, 255, 0.9) ;
+   margin: 80px 0px;
+}
+
+.home .display{
+    margin-top: -20PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.home .display p{
+    
+    color: white;
+    padding: 10px;
+    margin-bottom: -5px;
+}
+
+.home .display span::before{
+    content: "STUDENT";
+    animation: nischal infinite 3s;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0px 10px ;
+}
+
+@keyframes nischal {
+    0%{
+        content: "STUDENT";
+    }
+
+    33%{
+        content: "DESIGNER";
+    }
+
+    66%{
+        content: "DEVELOPER";
+    }
+}
+
