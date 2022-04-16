@@ -36,6 +36,26 @@ body{
     font-size: 30px;
     font-weight: bolder;
     font-weight: 300;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.logo span:nth-child(4){
+    transform: rotate(15deg);
+}
+
+.logo span:nth-child(2){
+    transform: rotate(35deg);
+}
+
+.logo span:nth-child(6){
+    transform: rotate(15deg);
+}
+
+.logo span:hover{
+    background-color: white;
+    color: rgba(27, 221, 69, 0.9);
+    transition: .7s;
 }
 
 .menu{
