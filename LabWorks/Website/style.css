@@ -37,20 +37,21 @@ body{
     align-items: center;
 }
 
-.menu li{
+.menu li a{
     margin-right: 20px;
     color: white;
     font-weight: bolder;
+    text-decoration: none;
 }
 
-.menu li:hover{
+.menu li a:hover{
     background-color: white;
     padding: 5px;
     color: rgba(27, 221, 69, 0.9);
     transition: .4s;
 }
 
-.menu li:nth-child(5){
+.menu li:nth-child(5) a{
     background-color: white;
     padding: 5px;
     color: rgba(27, 221, 69, 0.9);
@@ -68,8 +69,14 @@ body{
    border-radius: 500px;
    border-bottom: 1px solid rgba(204, 240, 212, 0.9);
    border-right: 1px solid rgba(204, 240, 212, 0.9);
-   box-shadow: 25px 25px 10px 10px rgba(255, 255, 255, 0.9) ;
+   box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.9) ;
    margin: 80px 0px;
+}
+
+.home .picture img:hover{
+    box-shadow: none;
+    transition: 2s;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9) ;
 }
 
 .home .display{
