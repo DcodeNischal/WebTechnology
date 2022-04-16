@@ -9,6 +9,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .navbar{
     display: flex;
     flex-direction: column;
@@ -26,6 +27,8 @@ body{
 
 .logo{
     color:white;
+    display: flex;
+    flex-direction: row;
     
 }
 
@@ -38,13 +41,17 @@ body{
 .menu{
     margin-top: 20px;
     display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: flex-end;
     align-items: center;
 }
 
+.menu li{
+    margin-right: 40px;
+}
+
 .menu li a{
-    margin-right: 20px;
     color: white;
     font-weight: bolder;
     text-decoration: none;
@@ -64,9 +71,13 @@ body{
     font-weight: bolder;
 }
 
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .home .picture{
-    margin-top: -20px;
     display: flex;
     justify-content: center;
     height: 600px;
@@ -83,7 +94,8 @@ body{
 .home .picture img:hover{
     box-shadow: none;
     transition: 2s;
-    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9) ;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.9);
+    transform: rotateY(30deg);
 }
 
 .home .display{
